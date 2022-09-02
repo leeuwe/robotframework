@@ -322,43 +322,86 @@ class Cs(Language):
 
 class Nl(Language):
     """Dutch"""
-    settings_header = 'Instellingen'
-    variables_header = 'Variabelen'
-    test_cases_header = 'Testgevallen'
-    tasks_header = 'Taken'
-    keywords_header = 'Sleutelwoorden'
-    comments_header = 'Opmerkingen'
-    library_setting = 'Bibliotheek'
-    resource_setting = 'Resource'
-    variables_setting = 'Variabele'
-    documentation_setting = 'Documentatie'
-    metadata_setting = 'Metadata'
-    suite_setup_setting = 'Suite Preconditie'
-    suite_teardown_setting = 'Suite Postconditie'
-    test_setup_setting = 'Test Preconditie'
-    test_teardown_setting = 'Test Postconditie'
-    test_template_setting = 'Test Sjabloon'
-    test_timeout_setting = 'Test Time-out'
-    test_tags_setting = 'Test Labels'
-    task_setup_setting = 'Taak Preconditie'
-    task_teardown_setting = 'Taak Postconditie'
-    task_template_setting = 'Taak Sjabloon'
-    task_timeout_setting = 'Taak Time-out'
-    task_tags_setting = 'Taak Labels'
-    keyword_tags_setting = 'Sleutelwoord Labels'
-    tags_setting = 'Labels'
-    setup_setting = 'Preconditie'
-    teardown_setting = 'Postconditie'
-    template_setting = 'Sjabloon'
-    timeout_setting = 'Time-out'
-    arguments_setting = 'Parameters'
-    given_prefix = {'Stel'}
-    when_prefix = {'Als'}
-    then_prefix = {'Dan'}
-    and_prefix = {'En'}
-    but_prefix = {'Maar'}
+    setting_headers = {'Instelling', 'Instellingen'}
+    variable_headers = {'Variabele', 'Variabelen'}
+    test_case_headers = {'Testgeval', 'Testgevallen'}
+    task_headers = {'Taak', 'Taken'}
+    keyword_headers = {'Sleutelwoord', 'Sleutelwoorden'}
+    comment_headers = {'Commentaar', 'Commentaar'}
+    library = 'Bibliotheek'
+    resource = 'Resource'
+    variables = 'Variabele'
+    documentation = 'Documentatie'
+    metadata = 'Metadata'
+    suite_setup = 'Suite Voorbereiding'
+    suite_teardown = 'Suite Afronding'
+    test_setup = 'Test Voorbereiding'
+    test_teardown = 'Test Afronding'
+    test_template = 'Test Sjabloon'
+    test_timeout = 'Test Time-out'
+    test_tags = 'Test Labels'
+    task_setup = 'Taak Voorbereiding'
+    task_teardown = 'Taak Afronding'
+    task_template = 'Taak Sjabloon'
+    task_timeout = 'Taak Time-out'
+    task_tags = 'Taak Labels'
+    keyword_tags = 'Sleutelwoord Labels'
+    tags = 'Labels'
+    setup = 'Voorbereiding'
+    teardown = 'Afronding'
+    template = 'Sjabloon'
+    timeout = 'Time-out'
+    arguments = 'Parameters'
+    given_prefix = 'Stel'
+    when_prefix = 'Als'
+    then_prefix = 'Dan'
+    and_prefix = 'En'
+    but_prefix = 'Maar'
+    true_strings = {'WAAR', 'JA', 'AAN'}
+    false_strings = {'ONWAAR', 'NEE', 'UIT', 'GEEN'}
 
 
+class Bs(Language):
+    """Bosnian"""
+    setting_headers = {'Postavka', 'Postavke', 'Postavke'}
+    variable_headers = {'Varijabla', 'Varijable', 'Varijable'}
+    test_case_headers = {'Test Case', 'Test Cases', 'Test Cases'}
+    task_headers = {'Task', 'Taskovi', 'Taskovi'}
+    keyword_headers = {'Keyword', 'Keywords', 'Keywords'}
+    comment_headers = {'Komentar', 'Komentari', 'Komentari'}
+    library = 'Biblioteka'
+    resource = 'Resursi'
+    variables = 'Varijabla'
+    documentation = 'Dokumentacija'
+    metadata = 'Metadata'
+    suite_setup = 'Suite Postavke'
+    suite_teardown = 'Suite Teardown'
+    test_setup = 'Test Postavke'
+    test_teardown = 'Test Teardown'
+    test_template = 'Test Template'
+    test_timeout = 'Test Timeout'
+    test_tags = 'Test Tagovi'
+    task_setup = 'Task Postavke'
+    task_teardown = 'Task Teardown'
+    task_template = 'Task Template'
+    task_timeout = 'Task Timeout'
+    task_tags = 'Task Tagovi'
+    keyword_tags = 'Keyword Tagovi'
+    tags = 'Tagovi'
+    setup = 'Postavke'
+    teardown = 'Teardown'
+    template = 'Template'
+    timeout = 'Timeout'
+    arguments = 'Argumenti'
+    given_prefix = 'Uslovno'
+    when_prefix = 'Kada'
+    then_prefix = 'Tada'
+    and_prefix = 'I'
+    but_prefix = 'Ali'
+    true_strings = {'TRUE', 'YES', 'ON'}
+    false_strings = {'FALSE', 'NO', 'OFF', 'NONE'}
+
+    
 class Fi(Language):
     """Finnish"""
     settings_header = 'Asetukset'
