@@ -703,40 +703,42 @@ class Th(Language):
 class Pl(Language):
     """Polish"""
     settings_header = 'Ustawienia'
-    variables_header = 'Zmienne'
+    variables_header = 'Zmienna'
     test_cases_header = 'Przypadki testowe'
     tasks_header = 'Zadania'
     keywords_header = 'Słowa kluczowe'
     comments_header = 'Komentarze'
     library_setting = 'Biblioteka'
     resource_setting = 'Zasób'
-    variables_setting = 'Zmienne'
+    variables_setting = 'Zmienna'
     documentation_setting = 'Dokumentacja'
     metadata_setting = 'Metadane'
-    suite_setup_setting = 'Inicjalizacja zestawu'
-    suite_teardown_setting = 'Ukończenie zestawu'
-    test_setup_setting = 'Inicjalizacja testu'
-    test_teardown_setting = 'Ukończenie testu'
-    test_template_setting = 'Szablon testu'
-    test_timeout_setting = 'Limit czasowy testu'
-    test_tags_setting = 'Znaczniki testu'
-    task_setup_setting = 'Inicjalizacja zadania'
-    task_teardown_setting = 'Ukończenie zadania'
-    task_template_setting = 'Szablon zadania'
-    task_timeout_setting = 'Limit czasowy zadania'
+    suite_setup_setting = 'Inicjalizacja Zestawu'
+    suite_teardown_setting = 'Czyszczenie Zestawu'
+    test_setup_setting = 'Inicjalizacja Testu'
+    test_teardown_setting = 'Czyszczenie Testu'
+    test_template_setting = 'Szablon Testu'
+    test_timeout_setting = 'Limit Czasu Testu'
+    test_tags_setting = 'Znaczniki Testu'
+    task_setup_setting = 'Inicjalizacja Zadania'
+    task_teardown_setting = 'Czyszczenie Zadania'
+    task_template_setting = 'Szablon Zadania'
+    task_timeout_setting = 'Limit Czasu Zadania'
     task_tags_setting = 'Znaczniki zadania'
     keyword_tags_setting = 'Znaczniki słowa kluczowego'
-    tags_setting = 'Znaczniki'
+    tags_setting = 'Tagi'
     setup_setting = 'Inicjalizacja'
-    teardown_setting = 'Ukończenie'
+    teardown_setting = 'Czyszczenie'
     template_setting = 'Szablon'
-    timeout_setting = 'Limit czasowy'
+    timeout_setting = 'Limit Czasu'
     arguments_setting = 'Argumenty'
     given_prefixes = ['Zakładając', 'Zakładając, że', 'Mając']
     when_prefixes = ['Jeżeli', 'Jeśli', 'Gdy', 'Kiedy']
     then_prefixes = ['Wtedy']
     and_prefixes = ['Oraz', 'I']
     but_prefixes = ['Ale']
+    true_strings = ['Prawda', 'Tak', 'Włączone']
+    false_strings = ['Fałsz', 'Nie', 'Wyłączone', 'Nic']
 
 
 class Uk(Language):
